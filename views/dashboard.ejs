@@ -1,0 +1,17 @@
+<h1 class="mt-4">Dashboard</h1>
+<p class="lead mb-3">Welcome <%= name %></p>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col"><%= id %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Email</th>
+        <td><%= email %></td>
+      </tr>
+    </tbody>
+  </table>
+<a href="/users/logout" class="btn btn-secondary">Logout</a>
